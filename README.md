@@ -26,7 +26,7 @@
 | 组件 | 型号 |
 |------|------|
 | 主控板 | Seeed XIAO ESP32S3 Sense（8MB PSRAM, 8MB Flash） |
-| 显示屏 | 2.9" C3_GDEM029C90 三色墨水屏 (128×296, 黑/白/红) |
+| 显示屏 | 2.9" C3_GDEM029C90 三色墨水屏 (128×296, 黑/白/红) — [淘宝购买](https://e.tb.cn/h.8mzs3E15b6KC3Jv?tk=mxEuTfk8F3v) |
 | 摄像头 | OV2640（XIAO Sense 板载, DVP 接口） |
 | 按钮 | 板载 BOOT 键 (GPIO0) + 外接拍照键 (GPIO6) |
 | 状态 LED | 板载 LED (GPIO5, 高电平有效) |
