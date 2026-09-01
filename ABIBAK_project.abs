@@ -1,0 +1,10 @@
+# ============================================
+# Blockly ABS File
+# Project Data Schema: 1 (external-only)
+# Generated: 2026-08-08T00:43:57.123Z
+# Mode: Explicit block types (no syntax sugar)
+# ============================================
+
+# Global definitions can be created as standalone blocks or within arduino_global blocks, eg:
+# arduino_global()
+#    variable_define("variable", int, math_number(0))

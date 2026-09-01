@@ -1,0 +1,138 @@
+{
+  "name": "reframe_camerav_0_0_2",
+  "version": "1.0.0",
+  "description": "「即拍即显，把路上的风景当桌搭」 — 按下按钮拍照后立即显示在墨水屏上，拍完关机断电零功耗。放在办公桌上当图片桌搭。",
+  "dependencies": {
+    "@aily-project/board-xiao_esp32s3_sense": "3.3.1",
+    "@aily-project/lib-core-custom": "1.1.0",
+    "@aily-project/lib-core-io": "1.0.0",
+    "@aily-project/lib-core-logic": "0.0.1",
+    "@aily-project/lib-core-loop": "0.0.1",
+    "@aily-project/lib-core-math": "0.0.1",
+    "@aily-project/lib-core-serial": "0.0.1",
+    "@aily-project/lib-core-text": "1.0.0",
+    "@aily-project/lib-core-time": "0.0.1",
+    "@aily-project/lib-core-variables": "1.0.1",
+    "@aily-project/lib-esp32-littlefs": "0.0.1",
+    "@aily-project/lib-esp32-preferences": "0.0.2",
+    "@aily-project/lib-esp32-wifi": "1.0.3",
+    "@aily-project/lib-esp32cam": "1.0.0",
+    "@aily-project/lib-esp32-webserver": "1.0.0",
+    "@aily-project/lib-gxepd2": "1.6.9"
+  },
+  "projectConfig": {
+    "PSRAM": "opi"
+  },
+  "nickname": "reframe_camera",
+  "devmode": "arduino",
+  "ailyBlocklyUsedLibraries": {
+    "@aily-project/lib-core-custom": {
+      "version": "1.1.0",
+      "blockTypes": [
+        "custom_code",
+        "custom_code2",
+        "custom_function",
+        "custom_function_call",
+        "custom_insert_code",
+        "custom_library"
+      ],
+      "updatedAt": 1788224779846
+    },
+    "@aily-project/lib-core-io": {
+      "version": "1.0.0",
+      "blockTypes": [
+        "io_mode",
+        "io_pinmode"
+      ],
+      "updatedAt": 1786152403193
+    },
+    "@aily-project/lib-core-logic": {
+      "version": "0.0.1",
+      "blockTypes": [
+        "controls_if",
+        "logic_negate"
+      ],
+      "updatedAt": 1786152403193
+    },
+    "@aily-project/lib-core-loop": {
+      "version": "0.0.1",
+      "blockTypes": [
+        "arduino_loop",
+        "arduino_setup"
+      ],
+      "updatedAt": 1786152403193
+    },
+    "@aily-project/lib-core-math": {
+      "version": "0.0.1",
+      "blockTypes": [
+        "math_number"
+      ],
+      "updatedAt": 1786152403193
+    },
+    "@aily-project/lib-core-serial": {
+      "version": "0.0.1",
+      "blockTypes": [
+        "serial_begin",
+        "serial_print",
+        "serial_println"
+      ],
+      "updatedAt": 1786152403193
+    },
+    "@aily-project/lib-core-text": {
+      "version": "1.0.0",
+      "blockTypes": [
+        "text"
+      ],
+      "updatedAt": 1786152403193
+    },
+    "@aily-project/lib-esp32-littlefs": {
+      "version": "0.0.1",
+      "blockTypes": [
+        "esp32_littlefs_begin",
+        "esp32_littlefs_info"
+      ],
+      "updatedAt": 1788224779846
+    },
+    "@aily-project/lib-esp32-preferences": {
+      "version": "0.0.2",
+      "blockTypes": [
+        "esp32_preferences_begin",
+        "esp32_preferences_end"
+      ],
+      "updatedAt": 1788224779846
+    },
+    "@aily-project/lib-esp32cam": {
+      "version": "1.0.0",
+      "blockTypes": [
+        "esp32cam_init",
+        "esp32cam_is_ready",
+        "esp32cam_set_logger"
+      ],
+      "updatedAt": 1788224779846
+    },
+    "@aily-project/lib-gxepd2": {
+      "version": "1.6.9",
+      "blockTypes": [
+        "gxepd2_set_rotation",
+        "gxepd2_setup",
+        "gxepd2_spi_pins",
+        "gxepd2_u8g2_begin",
+        "gxepd2_u8g2_color",
+        "gxepd2_u8g2_font",
+        "gxepd2_u8g2_mode",
+        "gxepd2_u8g2_text"
+      ],
+      "updatedAt": 1788224779846
+    }
+  },
+  "buildInfo": {
+    "lastBuildTime": "2026-08-16T03:16:05.785Z",
+    "lastBuildCode": "0f564b8b0e3ff94e40367711d6c137e25a0449e61b3d56f393bc6f565120036a",
+    "lastBuildStatus": "success",
+    "lastBuildDuration": 14.51
+  },
+  "codeHash": "0f564b8b0e3ff94e40367711d6c137e25a0449e61b3d56f393bc6f565120036a",
+  "cloudId": 1608,
+  "doc_url": "",
+  "keywords": []
+}

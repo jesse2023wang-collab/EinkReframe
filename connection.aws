@@ -1,0 +1,18 @@
+USE lib-gxepd2:GDEM029C90:C3_GDEM029C90 AS epd "GDEM029C90 2.9寸三色墨水屏(SPI)"
+USE lib-core-io:tactile_switch_6x6:default AS btn "轻触开关6x6mm(GPIO6)"
+USE lib-core-io:led_3mm:default AS led "绿色LED 3mm(GPIO5)"
+
+CONNECT epd.VCC -> board.3V3 @power
+CONNECT epd.GND -> board.GND @gnd
+CONNECT epd.SCK -> board.SCK @spi
+CONNECT epd.DIN -> board.MOSI @spi
+CONNECT epd.CS -> board.D0 @digital
+CONNECT epd.DC -> board.D1 @digital
+CONNECT epd.RST -> board.D2 @digital
+CONNECT epd.BUSY -> board.D3 @digital
+
+CONNECT btn.SIG -> board.D6 @digital
+CONNECT btn.GND -> board.GND @gnd
+
+CONNECT led.A -> board.D4 @digital
+CONNECT led.K -> board.GND @gnd

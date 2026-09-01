@@ -1,0 +1,264 @@
+{
+  "version": "1.0.0",
+  "description": "连线方案（GDEM029C90 2.9寸三色墨水屏(SPI) + 轻触开关6x6mm(GPIO6) + 绿色LED 3mm(GPIO5)）",
+  "components": [
+    {
+      "refId": "board",
+      "componentId": "component_1772703457955",
+      "componentName": "XIAO ESP32S3 Sense",
+      "pinmapId": "board-xiao_esp32s3_sense:default:default",
+      "isBoard": true
+    },
+    {
+      "refId": "epd",
+      "componentId": "component_GDEM029C90_C3_GDEM029C90",
+      "componentName": "GDEM029C90 2.9寸三色墨水屏(SPI)",
+      "pinmapId": "lib-gxepd2:GDEM029C90:C3_GDEM029C90",
+      "instance": 0
+    },
+    {
+      "refId": "btn",
+      "componentId": "component_tactile_switch_6x6_default",
+      "componentName": "轻触开关6x6mm(GPIO6)",
+      "pinmapId": "lib-core-io:tactile_switch_6x6:default",
+      "instance": 0
+    },
+    {
+      "refId": "led",
+      "componentId": "component_led_3mm_default",
+      "componentName": "绿色LED 3mm(GPIO5)",
+      "pinmapId": "lib-core-io:led_3mm:default",
+      "instance": 0
+    }
+  ],
+  "connections": [
+    {
+      "id": "conn_1_1e0e744cef8f",
+      "from": {
+        "ref": "epd",
+        "pinId": "VCC",
+        "function": "VCC"
+      },
+      "to": {
+        "ref": "board",
+        "pinId": "pin_1",
+        "function": "3V3"
+      },
+      "type": "power",
+      "label": "POWER: VCC → 3V3",
+      "color": "#EF4444",
+      "direction": "forward",
+      "half": false,
+      "animationPattern": "flow-static"
+    },
+    {
+      "id": "conn_2_1e0e744cef8f",
+      "from": {
+        "ref": "epd",
+        "pinId": "GND",
+        "function": "GND"
+      },
+      "to": {
+        "ref": "board",
+        "pinId": "pin_3",
+        "function": "GND"
+      },
+      "type": "gnd",
+      "label": "GND: GND → GND",
+      "color": "#000000",
+      "direction": "forward",
+      "half": false,
+      "animationPattern": "flow-static"
+    },
+    {
+      "id": "conn_3_1e0e744cef8f",
+      "from": {
+        "ref": "epd",
+        "pinId": "SCK",
+        "function": "SCK"
+      },
+      "to": {
+        "ref": "board",
+        "pinId": "pin_23",
+        "function": "SCK"
+      },
+      "type": "spi",
+      "label": "SPI: SCK → SCK",
+      "color": "#EC4899",
+      "direction": "forward",
+      "half": false,
+      "animationPattern": "flow-forward"
+    },
+    {
+      "id": "conn_4_1e0e744cef8f",
+      "from": {
+        "ref": "epd",
+        "pinId": "DIN",
+        "function": "DIN"
+      },
+      "to": {
+        "ref": "board",
+        "pinId": "pin_16",
+        "function": "MOSI"
+      },
+      "type": "spi",
+      "label": "SPI: DIN → MOSI",
+      "color": "#EC4899",
+      "direction": "forward",
+      "half": false,
+      "animationPattern": "flow-forward"
+    },
+    {
+      "id": "conn_5_1e0e744cef8f",
+      "from": {
+        "ref": "epd",
+        "pinId": "CS",
+        "function": "CS"
+      },
+      "to": {
+        "ref": "board",
+        "pinId": "pin_14",
+        "function": "D0"
+      },
+      "type": "digital",
+      "label": "DIGITAL: CS → D0",
+      "color": "#3B82F6",
+      "direction": "forward",
+      "half": false,
+      "animationPattern": "flow-forward"
+    },
+    {
+      "id": "conn_6_1e0e744cef8f",
+      "from": {
+        "ref": "epd",
+        "pinId": "DC",
+        "function": "DC"
+      },
+      "to": {
+        "ref": "board",
+        "pinId": "pin_15",
+        "function": "D1"
+      },
+      "type": "digital",
+      "label": "DIGITAL: DC → D1",
+      "color": "#3B82F6",
+      "direction": "forward",
+      "half": false,
+      "animationPattern": "flow-forward"
+    },
+    {
+      "id": "conn_7_1e0e744cef8f",
+      "from": {
+        "ref": "epd",
+        "pinId": "RST",
+        "function": "RST"
+      },
+      "to": {
+        "ref": "board",
+        "pinId": "pin_17",
+        "function": "D2"
+      },
+      "type": "digital",
+      "label": "DIGITAL: RST → D2",
+      "color": "#3B82F6",
+      "direction": "forward",
+      "half": false,
+      "animationPattern": "flow-forward"
+    },
+    {
+      "id": "conn_8_1e0e744cef8f",
+      "from": {
+        "ref": "epd",
+        "pinId": "BUSY",
+        "function": "BUSY"
+      },
+      "to": {
+        "ref": "board",
+        "pinId": "pin_18",
+        "function": "D3"
+      },
+      "type": "digital",
+      "label": "DIGITAL: BUSY → D3",
+      "color": "#3B82F6",
+      "direction": "forward",
+      "half": false,
+      "animationPattern": "flow-forward"
+    },
+    {
+      "id": "conn_9_1e0e744cef8f",
+      "from": {
+        "ref": "btn",
+        "pinId": "SIG",
+        "function": "SIG"
+      },
+      "to": {
+        "ref": "board",
+        "pinId": "pin_21",
+        "function": "D6"
+      },
+      "type": "digital",
+      "label": "DIGITAL: SIG → D6",
+      "color": "#3B82F6",
+      "direction": "bidirectional",
+      "half": true,
+      "animationPattern": "flow-half-duplex"
+    },
+    {
+      "id": "conn_10_1e0e744cef8f",
+      "from": {
+        "ref": "btn",
+        "pinId": "GND",
+        "function": "GND"
+      },
+      "to": {
+        "ref": "board",
+        "pinId": "pin_3",
+        "function": "GND"
+      },
+      "type": "gnd",
+      "label": "GND: GND → GND",
+      "color": "#000000",
+      "direction": "forward",
+      "half": false,
+      "animationPattern": "flow-static"
+    },
+    {
+      "id": "conn_11_1e0e744cef8f",
+      "from": {
+        "ref": "led",
+        "pinId": "A",
+        "function": "A"
+      },
+      "to": {
+        "ref": "board",
+        "pinId": "pin_19",
+        "function": "D4"
+      },
+      "type": "digital",
+      "label": "DIGITAL: A → D4",
+      "color": "#3B82F6",
+      "direction": "forward",
+      "half": false,
+      "animationPattern": "flow-forward"
+    },
+    {
+      "id": "conn_12_1e0e744cef8f",
+      "from": {
+        "ref": "led",
+        "pinId": "K",
+        "function": "K"
+      },
+      "to": {
+        "ref": "board",
+        "pinId": "pin_3",
+        "function": "GND"
+      },
+      "type": "gnd",
+      "label": "GND: K → GND",
+      "color": "#000000",
+      "direction": "forward",
+      "half": false,
+      "animationPattern": "flow-static"
+    }
+  ]
+}
