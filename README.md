@@ -10,12 +10,15 @@
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="https://raw.githubusercontent.com/jesse2023wang-collab/images/main/eink-reframe-02-display-front.jpg" width="400" /><br><sub>正面 — 墨水屏显示剧照与台词</sub></td>
-      <td align="center"><img src="https://raw.githubusercontent.com/jesse2023wang-collab/images/main/eink-reframe-03-display-angle.jpg" width="400" /><br><sub>侧面 — 设备外观与接口</sub></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/jesse2023wang-collab/images/main/eink-reframe-04-display-content.jpg" width="400" /><br><sub>显示效果 — 经典台词叠加在照片上</sub></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/jesse2023wang-collab/images/main/eink-reframe-01-capturing.jpg" width="400" /><br><sub>拍摄中 — 屏幕显示「拍摄中 请稍后」</sub></td>
+      
     </tr>
     <tr>
-      <td align="center"><img src="https://raw.githubusercontent.com/jesse2023wang-collab/images/main/eink-reframe-01-capturing.jpg" width="400" /><br><sub>拍摄中 — 屏幕显示「拍摄中 请稍后」</sub></td>
-      <td align="center"><img src="https://raw.githubusercontent.com/jesse2023wang-collab/images/main/eink-reframe-04-display-content.jpg" width="400" /><br><sub>显示效果 — 经典台词叠加在照片上</sub></td>
+      
+      <td align="center"><img src="https://raw.githubusercontent.com/jesse2023wang-collab/images/main/eink-reframe-02-display-front.jpg" width="400" /><br><sub>背面 — 墨水屏</sub></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/jesse2023wang-collab/images/main/eink-reframe-03-display-angle.jpg" width="400" /><br><sub>侧面 — 设备外观与接口</sub></td>
+      
     </tr>
   </table>
 </div>
