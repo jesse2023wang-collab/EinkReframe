@@ -1,5 +1,5 @@
 # Eink Reframe — 即拍即显电子墨水相机
-<img width="2275" height="1280" alt="image" src="https://github.com/user-attachments/assets/414e6ad6-4b6c-4077-9286-67ae2e36d9c3" />
+
 
 
 基于 **Seeed XIAO ESP32S3 Sense**（含 OV2640 摄像头）与 **2.9" C3_GDEM029C90 三色电子墨水屏**的便携式即拍即显相机。物理横置安装（128高×296长），按下按钮拍照，经 Floyd-Steinberg 三色误差扩散抖动后立即显示在墨水屏上，照片上叠加一句经典电视剧台词（逆时针90°旋转，沿长边显示）。拍完断电，零功耗待机。
