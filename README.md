@@ -4,6 +4,23 @@
 
 基于 **Seeed XIAO ESP32S3 Sense**（含 OV2640 摄像头）与 **2.9" C3_GDEM029C90 三色电子墨水屏**的便携式即拍即显相机。物理横置安装（128高×296长），按下按钮拍照，经 Floyd-Steinberg 三色误差扩散抖动后立即显示在墨水屏上，照片上叠加一句经典电视剧台词（逆时针90°旋转，沿长边显示）。拍完断电，零功耗待机。
 
+
+## 设备预览
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="https://raw.githubusercontent.com/jesse2023wang-collab/images/main/eink-reframe-02-display-front.jpg" width="400" /><br><sub>正面 — 墨水屏显示剧照与台词</sub></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/jesse2023wang-collab/images/main/eink-reframe-03-display-angle.jpg" width="400" /><br><sub>侧面 — 设备外观与接口</sub></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://raw.githubusercontent.com/jesse2023wang-collab/images/main/eink-reframe-01-capturing.jpg" width="400" /><br><sub>拍摄中 — 屏幕显示「拍摄中 请稍后」</sub></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/jesse2023wang-collab/images/main/eink-reframe-04-display-content.jpg" width="400" /><br><sub>显示效果 — 经典台词叠加在照片上</sub></td>
+    </tr>
+  </table>
+</div>
+
+
 ## 硬件
 
 | 组件 | 型号 |
